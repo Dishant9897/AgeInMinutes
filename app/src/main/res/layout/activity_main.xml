@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/BackgroundColor"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tvCalculateYourAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_your"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/TextColor"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="monospace"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/in_minutes"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/TextColor"
+        />
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_date"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:padding="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tvDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/TextColor"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_date"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/greyColor"
+        />
+    <TextView
+        android:id="@+id/tvInMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"
+        android:layout_marginTop="18dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/TextColor"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/in_min_till_date"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/greyColor"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="40dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/user_image"
+        />
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pic"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        />
+
+
+
+
+</LinearLayout>
