@@ -63,14 +63,15 @@ class MainActivity : AppCompatActivity() {
 
    }
     // function to capture and set image in ImageView
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent) {
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
         if(requestCode==123){
-            var bitmp = data.extras.get("Data") as Bitmap
+            var bitmp = data?.extras?.get("Data") as Bitmap
             imgUser.setImageBitmap(bitmp)
         }
     }
 
 
 }
+
